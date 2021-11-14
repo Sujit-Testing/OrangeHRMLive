@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-15T00:07:33 IST" name="OrangeHRMLive Test Automation Suite" finished-at="2021-11-15T00:09:17 IST" duration-ms="104624">
+    <groups>
+    </groups>
+    <test started-at="2021-11-15T00:07:33 IST" name="OrangeHRMLive Test Cases" finished-at="2021-11-15T00:09:17 IST" duration-ms="104624">
+      <class name="com.orangeHRMLive.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.LoginPageTest@593aaf41]" started-at="2021-11-15T00:07:33 IST" name="setup" finished-at="2021-11-15T00:07:38 IST" duration-ms="5815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestPage()[pri:0, instance:com.orangeHRMLive.qa.testcases.LoginPageTest@593aaf41]" started-at="2021-11-15T00:07:38 IST" name="loginTestPage" finished-at="2021-11-15T00:07:43 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.LoginPageTest@593aaf41]" started-at="2021-11-15T00:07:43 IST" name="tearDown" finished-at="2021-11-15T00:07:47 IST" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRMLive.qa.testcases.LoginPageTest -->
+      <class name="com.orangeHRMLive.qa.testcases.LeaveListPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.LeaveListPageTest@7db12bb6]" started-at="2021-11-15T00:08:59 IST" name="setup" finished-at="2021-11-15T00:09:13 IST" duration-ms="13628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="veryfyLeaveListLebel()[pri:0, instance:com.orangeHRMLive.qa.testcases.LeaveListPageTest@7db12bb6]" started-at="2021-11-15T00:09:13 IST" name="veryfyLeaveListLebel" finished-at="2021-11-15T00:09:13 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veryfyLeaveListLebel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.LeaveListPageTest@7db12bb6]" started-at="2021-11-15T00:09:13 IST" name="tearDown" finished-at="2021-11-15T00:09:17 IST" duration-ms="3975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRMLive.qa.testcases.LeaveListPageTest -->
+      <class name="com.orangeHRMLive.qa.testcases.DashboardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:07:47 IST" name="setup" finished-at="2021-11-15T00:07:56 IST" duration-ms="9323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCorrectLandingHomePage()[pri:1, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:07:56 IST" name="verifyCorrectLandingHomePage" finished-at="2021-11-15T00:07:58 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectLandingHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:07:58 IST" name="tearDown" finished-at="2021-11-15T00:08:01 IST" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:01 IST" name="setup" finished-at="2021-11-15T00:08:11 IST" duration-ms="9413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNotAssignedToSubunits()[pri:2, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:11 IST" name="verifyNotAssignedToSubunits" finished-at="2021-11-15T00:08:11 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotAssignedToSubunits -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:11 IST" name="tearDown" finished-at="2021-11-15T00:08:14 IST" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:14 IST" name="setup" finished-at="2021-11-15T00:08:23 IST" duration-ms="8112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAdministration()[pri:3, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:23 IST" name="verifyAdministration" finished-at="2021-11-15T00:08:24 IST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdministration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:24 IST" name="tearDown" finished-at="2021-11-15T00:08:28 IST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:28 IST" name="setup" finished-at="2021-11-15T00:08:38 IST" duration-ms="10237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signOut()[pri:4, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:38 IST" name="signOut" finished-at="2021-11-15T00:08:39 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.DashboardPageTest@52b1beb6]" started-at="2021-11-15T00:08:39 IST" name="tearDown" finished-at="2021-11-15T00:08:43 IST" duration-ms="4161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRMLive.qa.testcases.DashboardPageTest -->
+      <class name="com.orangeHRMLive.qa.testcases.AssignLeavePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRMLive.qa.testcases.AssignLeavePageTest@273e7444]" started-at="2021-11-15T00:08:43 IST" name="setup" finished-at="2021-11-15T00:08:55 IST" duration-ms="11384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="veryfyAssignmentLeaveLebel()[pri:0, instance:com.orangeHRMLive.qa.testcases.AssignLeavePageTest@273e7444]" started-at="2021-11-15T00:08:55 IST" name="veryfyAssignmentLeaveLebel" finished-at="2021-11-15T00:08:55 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veryfyAssignmentLeaveLebel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRMLive.qa.testcases.AssignLeavePageTest@273e7444]" started-at="2021-11-15T00:08:55 IST" name="tearDown" finished-at="2021-11-15T00:08:59 IST" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRMLive.qa.testcases.AssignLeavePageTest -->
+    </test> <!-- OrangeHRMLive Test Cases -->
+  </suite> <!-- OrangeHRMLive Test Automation Suite -->
+</testng-results>

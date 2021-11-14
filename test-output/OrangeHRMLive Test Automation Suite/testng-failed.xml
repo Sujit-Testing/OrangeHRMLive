@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMLive Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHRMLive Test Cases(failed)">
+    <classes>
+      <class name="com.orangeHRMLive.qa.testcases.LeaveListPageTest">
+        <methods>
+          <include name="veryfyLeaveListLebel"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.orangeHRMLive.qa.testcases.LeaveListPageTest -->
+      <class name="com.orangeHRMLive.qa.testcases.AssignLeavePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="veryfyAssignmentLeaveLebel"/>
+        </methods>
+      </class> <!-- com.orangeHRMLive.qa.testcases.AssignLeavePageTest -->
+      <class name="com.orangeHRMLive.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="signOut"/>
+          <include name="setup"/>
+          <include name="verifyCorrectLandingHomePage"/>
+          <include name="verifyAdministration"/>
+          <include name="tearDown"/>
+          <include name="verifyNotAssignedToSubunits"/>
+        </methods>
+      </class> <!-- com.orangeHRMLive.qa.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- OrangeHRMLive Test Cases(failed) -->
+</suite> <!-- Failed suite [OrangeHRMLive Test Automation Suite] -->
